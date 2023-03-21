@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practise Landing</title>
-</head>
-<body>
-   <header class="hero">
-    <div class="container">
-        <div class="row navbar">
-            <a href="#" target="_self">Indicorp</a>
-            <nav clss="nav">
-                <ul class="nav-list"> 
-                    <li class="nav__item"><a href="#">Home</a></li>
-                    <li class="nav__item"><a href="#">Producting</a></li>
-                    <li class="nav__item"><a href="#">Pricing</a></li>
-                    <li class="nav__item"><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="row hero-cts"> 
-            <h1>Empower your business</h1>
-            <p>We know how large objects will act, but things on a small scale</p>
-            <a class="btn btn--rounded btn--primary" href="#">Get Quote Now</a>
-            <a class="btn btn--rounded btn--secondary btn--outline" href="#">Learn More</a>
-        </div>
-        <div class="row hero-blocks"> 
-            <div class="hero-blocks">
-                <svg>
-                    <use xlink:href="/images/content/sprite.svg#icon1"></use>
-                  </svg>
-                
-                <p class="hero__block__title">Digital marketing</p>
-                <p class="hero__block__descr">We focus on ergonomics and meeting you where you work</p>
-            </div>
-            <div class="hero-blocks">
-                <svg>
-                    <use xlink:href="/images/content/sprite.svg#icon2"></use>
-                  </svg>
-                <p class="hero__block__title">National top 50 firms</p>
-                <p class="hero__block__descr">Just type whats on your mind and well get you there</p>
-            </div>
-            <div class="hero-blocks">
-    <svg fill="#000000" height="48" width="48" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg fill="#000000" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
 	 viewBox="0 0 511 511" xml:space="preserve">
 <g>
 	<path d="M487.5,128.106H479v-24.5c0-2.905-1.678-5.549-4.307-6.786C405.088,64.066,325.408,63.6,255.5,95.371
@@ -125,11 +82,3 @@
 		c-3.951,1.242-6.148,5.452-4.907,9.403C65.352,144.716,68.309,146.767,71.498,146.767z"/>
 </g>
 </svg>
-                <p class="hero__block__title">Digital marketing</p>
-                <p class="hero__block__descr">The quick fox jumps over the lazy dog</p>
-            </div>
-        </div>
-    </div>
-   </header>
-</body>
-</html>

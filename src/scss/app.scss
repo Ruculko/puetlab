@@ -15,9 +15,12 @@
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
+@import 'sections/hero';
+
 /* Vendor */
 
 /* Components */
+@import 'base/common';
 
 /* Browser specific styles */
 @import 'dirty/hacks';
@@ -26,3 +29,5 @@
 @import 'demo';
 
 @import 'landing';
+
+
