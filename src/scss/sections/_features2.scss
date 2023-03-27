@@ -1,4 +1,4 @@
-.features{
+.features2{
     &__logo{
         font-family: 'Montserrat';
         font-style: normal;
@@ -42,7 +42,6 @@
     
 }
 
-
 .features-blocks {
     padding-top: 60px;
     display: flex;
@@ -50,22 +49,6 @@
     justify-content:  space-around;
     flex-wrap: wrap;
     padding-bottom:60px;
-   
-    h2{
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 57px;
-
-        letter-spacing: 0.2px;
-
-        color: #252B42;
-
-       // flex: none;
-        order: 1;
-        flex-grow: 0;
-    }
 
     h5{
         font-family: 'Montserrat';
@@ -74,15 +57,14 @@
         font-size: 16px;
         line-height: 24px;
 
-        text-align: center;
         letter-spacing: 0.1px;
 
-        color: #737373;
+        color: #252B42;
 
         flex: none;
-        order: 2;
+        order: 0;
         flex-grow: 0;
     }
 
-  
+   
 }
