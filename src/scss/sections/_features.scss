@@ -50,6 +50,13 @@
     justify-content:  space-around;
     flex-wrap: wrap;
     padding-bottom:60px;
+    
+    svg{
+        //margin-left: 20px;
+        margin-left: 28%;
+
+        
+    }
    
     h2{
         font-family: 'Montserrat';
@@ -65,6 +72,8 @@
        // flex: none;
         order: 1;
         flex-grow: 0;
+        
+        text-align: center;
     }
 
     h5{
@@ -84,5 +93,8 @@
         flex-grow: 0;
     }
 
-  
+    
+
 }
+
+
