@@ -88,6 +88,8 @@
 }
 
 .hero-cta {
+    max-width: 510px;
+
     &__info {
         font-weight: 500;
         font-size: 20px;
@@ -98,6 +100,8 @@
         p + p {
             margin-top: 10px;
         }
+
+        margin:35px 0;
     }
 
     h1 {
@@ -107,6 +111,8 @@
         letter-spacing: 0.2px;
         color: $text-color;
 
+        text-transform: uppercase;
+
     }
     
 }
@@ -115,15 +121,42 @@
     display: flex;  
     //box-sizing: border-box;
     //justify-content:space-around;
-    
-     
-    
-    
-.hero-block{
-background-color: azure;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    gap: 30px;
+
+    position: relative;
+    top: 20px;
 }
-   
+
+.hero-block{
+
+    background-color: #FFF;
+    padding: 35px 40px;
+    width: 100%;
+
+    box-shadow: (0px 13px 19px rgba(0, 0, 0, 0.07));
+    
+
+    &__title{
+        font-size: 24px;
+        line-height:32px;
+        letter-spacing:0.1px;
+        font-weight:700;
+
+        white-space:nowrap;
+
+        margin: 10px 0;
+        color: $text-color;
+    }
+
+    &__descr{
+        color: $second-text-color;
+    }
+
+    svg{
+        fill: $secondary-color;
+
+    }
+  
 }
 
 
