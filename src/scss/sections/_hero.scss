@@ -128,10 +128,11 @@
 }
 
 .hero-block{
-
     background-color: #FFF;
     padding: 35px 40px;
     width: 100%;
+
+    transition: all ease .3s;
 
     box-shadow: (0px 13px 19px rgba(0, 0, 0, 0.07));
     
@@ -146,6 +147,8 @@
 
         margin: 10px 0;
         color: $text-color;
+
+        
     }
 
     &__descr{
@@ -154,7 +157,18 @@
 
     svg{
         fill: $secondary-color;
+    }
 
+    &:hover{
+        background-color: $secondary-color;
+
+        svg{
+            fill:#FFF;
+        }
+
+        .hero-block__title, .hero-block__descr{
+            color: #FFF;
+        }
     }
   
 }
