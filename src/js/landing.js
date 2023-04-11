@@ -1,22 +1,24 @@
-$(window).on('load', function(){
-    console.log('uwu');
+console.log('Landing...')
 
-    $('.features__container').slick({
-        autoplay: true,
+$(window).on('load', function() {
+    console.log('Load...');
+
+    $('.statistics-blocks').slick({
+        //autoplay: true,
         slidesToShow: 4,
         arrows: false,
-
-      });
+    });
 });
 
-$('#slick-next').on('click',function(evt){
-    $('.features__container').slick('slickNext');
+$('#slick-next').on('click', function(evt) {
+    $('.statistics-blocks').slick('slickNext');
 });
 
-$('#slick-prev').on('click',function(evt){
-    $('.features__container').slick('slickPrev');
+$('#slick-prev').on('click', function(evt) {
+    $('.statistics-blocks').slick('slickPrev');
 });
 
-$(document).ready(function(ext){
-    console.log('Ready..');
+$(document).ready(function(evt) {
+    console.log('Ready...');
 });
+

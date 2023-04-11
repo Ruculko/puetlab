@@ -15,29 +15,26 @@
 /* Mixins, helpers and functions */
 @import 'base/mixins';
 
-@import 'sections/hero';
 
-@import 'sections/features';
 @import 'sections/features2';
-
-
-@import 'base/buttons';
-
-
 
 /* Vendor */
 
 /* Components */
 @import 'base/common';
+@import 'base/buttons';
+
+/* Sliders */
+@import 'sections/slick';
+
+/* Section */
+@import 'sections/hero';
+@import 'sections/statistics';
+@import 'sections/advice';
 
 /* Browser specific styles */
 @import 'dirty/hacks';
 
 /* Demo Page styles */
-@import 'demo';
-
 @import 'landing';
-
-@import 'sections/slick';
-
 
