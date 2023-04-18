@@ -1,3 +1,6 @@
+import Swiper from 'swiper';
+import 'swiper/css';
+
 console.log('Landing...')
 
 $(window).on('load', function() {
@@ -7,6 +10,12 @@ $(window).on('load', function() {
         //autoplay: true,
         slidesToShow: 4,
         arrows: false,
+    });
+
+    const swiper = new Swiper('.swiper', {
+        loop: true,
+        // spaceBetween: 30,
+        slidesPerView: 4,
     });
 });
 
@@ -21,4 +30,3 @@ $('#slick-prev').on('click', function(evt) {
 $(document).ready(function(evt) {
     console.log('Ready...');
 });
-
