@@ -42,6 +42,25 @@
         }
     }
 
+    &--third{
+        background-color: $secondary-color;
+        border-color: $primary-color;
+        &:hover{
+           // background-color: transparent;
+            color: $secondary-color;
+        }
+    }
+
+    
+    &--fourth{
+        background-color: $secondary-color;
+        border-color: #FFF;
+        &:hover{
+           // background-color: transparent;
+            color: $secondary-color;
+        }
+    }
+
     //fil - full(default) or outline
     &--outline{
         background-color: transparent;
@@ -49,6 +68,17 @@
 
         &:hover{
             background-color: $primary-color;
+            color: #FFF;
+             //color: $secondary-color;
+         }
+    }
+
+    &--outline2{
+        background-color: transparent;
+        color: #FFF;
+
+        &:hover{
+            background-color: #6d6d7e;
             color: #FFF;
              //color: $secondary-color;
          }

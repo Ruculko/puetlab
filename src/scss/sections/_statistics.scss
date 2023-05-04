@@ -100,10 +100,11 @@
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    cursor: pointer;
   }
   .slide-arrow{
     position: absolute;
-    top: 50%;
+    top: 40%;
     margin-top: -15px;
   }
   .prev-arrow{
@@ -111,16 +112,16 @@
     width: 0;
     height: 0;
     border-left: 0 solid transparent;
-    border-right: 15px solid #113463;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+    border-right: 30px solid #113463;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
   }
   .next-arrow{
     right: -40px;
     width: 0;
     height: 0;
     border-right: 0 solid transparent;
-    border-left: 15px solid #113463;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+    border-left: 30px solid #113463;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
   }

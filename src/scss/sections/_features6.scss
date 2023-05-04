@@ -1,0 +1,70 @@
+.features6-blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button1{
+    margin-top:100px;
+    margin-left:390px;
+    
+}
+.text{
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    //align-content:space-between;
+
+    &__name{
+      
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      /* identical to box height, or 133% */
+  
+      letter-spacing: 0.1px;
+  
+      /* text-color */
+  
+      color: #252B42;
+  
+  
+      /* Inside auto layout */
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+      
+    }
+
+    &__desc{
+
+        /* paragraph */
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* identical to box height, or 143% */
+
+        letter-spacing: 0.2px;
+
+        /* second-text-color */
+
+        color: #737373;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    
+}
+
