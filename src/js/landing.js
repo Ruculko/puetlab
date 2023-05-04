@@ -9,7 +9,10 @@ $(window).on('load', function() {
     $('.statistics-blocks').slick({
         //autoplay: true,
         slidesToShow: 4,
-        arrows: false,
+       
+    prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+    nextArrow: '<button class="slide-arrow next-arrow"></button>',
+        
     });
 
     const swiper = new Swiper('.swiper', {
