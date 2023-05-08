@@ -1,3 +1,7 @@
+.features7-blocks{
+    display: block;
+}
+
 .list-horizontal{
     ul {
     display: flex;
@@ -47,25 +51,19 @@
     margin-left: 330px;
     width: 69px;
     height: 24px;
-    
-    /* link */
-    
+ 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-    
+
     letter-spacing: 0.2px;
     
-    /* light-text-color */
-    
+
     color: #FFFFFF;
     
-    
-    /* Inside auto layout */
-    
+
     flex: none;
     order: 0;
     flex-grow: 0
@@ -85,24 +83,19 @@
     width: 69px;
     height: 24px;
     
-    /* link */
-    
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-    
+ 
     letter-spacing: 0.2px;
     
-    /* light-text-color */
-    
+
     color: #FFFFFF;
     
-    
-    /* Inside auto layout */
-    
+
     flex: none;
     order: 0;
     flex-grow: 0
@@ -110,8 +103,10 @@
 
 }
 
-.rest{
+.rest-bottom{
     display: flex;
+    background: #16697A;
+   
 }
 
 .list-horizontal4{
@@ -125,25 +120,19 @@
     margin-left: 40px;
     width: 69px;
     height: 24px;
-    
-    /* link */
-    
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 24px;
-    /* identical to box height, or 171% */
-    
+
     letter-spacing: 0.2px;
     
-    /* light-text-color */
-    
+
     color: #FFFFFF;
     
-    
-    /* Inside auto layout */
-    
+
     flex: none;
     order: 0;
     flex-grow: 0
@@ -155,14 +144,14 @@
    // background: #16697A;
     ul {
     background: #16697A;
-
+    
   }
-  
+  //background: #16697A;
  
   li{
-    background: #16697A;
+   // background: #16697A;
     display: flex;
-    margin-top:20px;
+    margin-top:30px;
     margin-left: 70px;
     width: 69px;
     height: 24px;
@@ -191,7 +180,40 @@
 
 
 
+.social{
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    margin-left:100px;
 
+    img{
+        display: inline;
+        margin-left:10px;
+    }
+    .text-bottom{
+        &__name{
+            width: 368px;
+        height: 24px;
+        margin-right:380px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        /* identical to box height, or 171% */
+
+        letter-spacing: 0.2px;
+
+        color: #737373;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        white-space: nowrap;
+        }
+    }
+}
 
 
 
